@@ -6,44 +6,36 @@
   "repo": "https://github.com/whyour/hundun",
   "apps": [
     {
-      "id": "supermarket",
-      "name": "京东超市",
-      "keys": ["zd_shelf_level", "zd_product_level"],
+      "id": "jx_tokens",
+      "name": "京喜tokens",
+      "keys": ["jx_tokens"],
+      "descs_html": [
+        "请勿随意在输入框修改内容，建议通过脚本去获取Token，若要修改，请按照 JSON 数组格式修改。",
+        "脚本地址【<a href=\"https://github.com/whyour/hundun/blob/master/quanx/jx_tokens.js\">京喜多账号Token获取</a>】,并按照此脚本注释进行配置"
+      ],
       "settings": [
         {
-          "id": "zd_upgrade_cheapest_product",
-          "name": "只升级等级最低的一件商品且消耗200万金币以下",
-          "val": true,
-          "type": "boolean",
-          "desc": "完成超市赚钱升级商品任务200万金币"
-        },
-        {
-          "id": "zd_product_level",
-          "name": "升级商品等级",
+          "id": "jx_tokens",
+          "name": "Tokens",
           "val": "",
-          "type": "text",
-          "desc": "填写每次需要自动升级的商品的等级，默认自动升一级."
-        },
-        {
-          "id": "zd_shelf_level",
-          "name": "升级货架等级",
-          "val": "",
-          "type": "text",
-          "desc": "填写每次需要自动升级的货架的等级，默认自动升一级."
+          "type": "textarea",
+          "autoGrow": true,
+          "rows": 8,
+          "desc": "Tokens 列表 (JSON 数组格式)"
         }
       ],
       "author": "@whyour",
-      "repo": "https://github.com/whyour/hundun/blob/master/quanx/shareCode-auto.js",
-      "script": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js",
+      "repo": "https://github.com/whyour/hundun/blob/master/quanx/jx_tokens.js",
+      "script": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js",
       "icons": [
-        "https://raw.githubusercontent.com/58xinian/icon/master/jxc_mini.png",
-        "https://raw.githubusercontent.com/58xinian/icon/master/jxc.png"
+        "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign_mini.png",
+        "https://raw.githubusercontent.com/58xinian/icon/master/jx_sign.png"
       ]
     },
     {
       "id": "caiyun",
       "name": "彩云天气",
-      "keys": ["caiyun_svip", "caiyun_location"],
+      "keys": ["caiyun_location"],
       "author": "@whyour",
       "repo": "https://github.com/whyour/hundun/blob/master/quanx/caiyun.js",
       "script": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/caiyun.js",
@@ -55,7 +47,6 @@
     {
       "id": "jd_ddxw",
       "name": "东东小窝",
-      "keys": ["jd_ddxw_name1", "jd_ddxw_name2"],
       "settings": [
         {
           "id": "xw_showLog",
@@ -83,7 +74,6 @@
     {
       "id": "jdzz",
       "name": "京东赚赚小程序",
-      "keys": ["jdzz_token1", "jdzz_token2"],
       "settings": [
         {
           "id": "zz_showLog",
@@ -234,7 +224,6 @@
     {
       "id": "jx_nc",
       "name": "京喜农场",
-      "keys": ["jxnc_token1", "jxnc_token2"],
       "settings": [
         {
           "id": "nc_showLog",
@@ -255,7 +244,7 @@
     {
       "id": "didi",
       "name": "滴滴出行",
-      "keys": ["didi_token", "didi_city_id", "didi_lid", ""],
+      "keys": ["didi_token", "didi_city_id", "didi_lid"],
       "settings": [
         {
           "id": "didi_showLog",
