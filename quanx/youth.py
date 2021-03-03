@@ -22,8 +22,8 @@ cookies1 = {
   'YOUTH_READBODY': '',
   'YOUTH_READTIMEBODY': '',
   'YOUTH_WITHDRAWBODY': '',
-  'YOUTH_SHAREBODY': '',
-  'YOUTH_STARTBODY': ''
+  'YOUTH_SHAREBODY': 'access=WIFI&app_version=2.0.2&article_id=36485936&channel=80000000&channel_code=80000000&cid=80000000&client_version=2.0.2&device_brand=iphone&device_id=49112670&device_model=iPhone&device_platform=iphone&device_type=iphone&from=0&is_hot=0&isnew=1&mobile_type=2&net_type=1&openudid=c2dd0b574c73d3f1b4044ed9068e1a1c&os_version=14.5&phone_code=c2dd0b574c73d3f1b4044ed9068e1a1c&phone_network=WIFI&platform=3&request_time=1614762112&resolution=640x1136&sign=deac7616484c024f35d230e44057b287&sm_device_id=202012201730083d8fc693adfc284df89a1197db3c518801059f99defc1405&stype=WEIXIN&szlm_ddid=D22OXvOWHpYdQjDf%2ByB9UhXgBqQ9C%2BbV8FECXmh7wlq7AX40&time=1614762112&uid=54139898&uuid=c2dd0b574c73d3f1b4044ed9068e1a1c',
+  'YOUTH_STARTBODY': 'access=WIFI&app_version=2.0.2&channel=80000000&channel_code=80000000&cid=80000000&client_version=2.0.2&device_brand=iphone&device_id=49112670&device_model=iPhone&device_platform=iphone&device_type=iphone&isnew=1&mobile_type=2&net_type=1&openudid=c2dd0b574c73d3f1b4044ed9068e1a1c&os_version=14.5&phone_code=c2dd0b574c73d3f1b4044ed9068e1a1c&phone_network=WIFI&platform=3&request_time=1614761899&resolution=640x1136&sm_device_id=202012201730083d8fc693adfc284df89a1197db3c518801059f99defc1405&szlm_ddid=D22OXvOWHpYdQjDf%2ByB9UhXgBqQ9C%2BbV8FECXmh7wlq7AX40&time=1614761899&token=854694e9ca5fc32d52f88e28fc1c0b4c&uid=54139898&uuid=c2dd0b574c73d3f1b4044ed9068e1a1c'
 }
 cookies2 = {}
 
