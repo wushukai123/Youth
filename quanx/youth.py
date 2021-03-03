@@ -18,7 +18,6 @@ from datetime import datetime, timezone, timedelta
 cookies1 = {
   'YOUTH_HEADER': {},
   'YOUTH_READBODY': '',
-  'YOUTH_REDBODY': '',
   'YOUTH_READTIMEBODY': '',
   'YOUTH_WITHDRAWBODY': ''
 }
@@ -32,13 +31,11 @@ if "YOUTH_HEADER1" in os.environ:
   for i in range(5):
     headerVar = f'YOUTH_HEADER{str(i+1)}'
     readBodyVar = f'YOUTH_READBODY{str(i+1)}'
-    redBodyVar = f'YOUTH_REDBODY{str(i+1)}'
     readTimeBodyVar = f'YOUTH_READTIMEBODY{str(i+1)}'
     withdrawBodyVar = f'YOUTH_WITHDRAWBODY{str(i+1)}'
     if headerVar in os.environ and os.environ[headerVar] and readBodyVar in os.environ and os.environ[readBodyVar] and redBodyVar in os.environ and os.environ[redBodyVar] and readTimeBodyVar in os.environ and os.environ[readTimeBodyVar]:
       globals()['cookies'+str(i + 1)]["YOUTH_HEADER"] = json.loads(os.environ[headerVar])
       globals()['cookies'+str(i + 1)]["YOUTH_READBODY"] = os.environ[readBodyVar]
-      globals()['cookies'+str(i + 1)]["YOUTH_REDBODY"] = os.environ[redBodyVar]
       globals()['cookies' + str(i + 1)]["YOUTH_READTIMEBODY"] = os.environ[readTimeBodyVar]
       globals()['cookies' + str(i + 1)]["YOUTH_WITHDRAWBODY"] = os.environ[withdrawBodyVar]
       COOKIELIST.append(globals()['cookies'+str(i + 1)])
